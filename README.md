@@ -29,12 +29,13 @@ Before building the model, an extensive EDA was performed to understand the rela
 
 ## 🏃 How to Run Locally
 
-### 1. Clone the repository
+### Clone the repository
 ```bash
 git clone [https://github.com/your-username/diabetes-prediction.git](https://github.com/your-username/diabetes-prediction.git)
 cd diabetes-prediction
 pip install -r requirements.txt
 streamlit run app.py
+
 
 ## 📁 Folder Structure
 ├── app.py              # Streamlit Web Application
@@ -42,6 +43,8 @@ streamlit run app.py
 ├── scaler.pkl          # Fitted StandardScaler Object
 ├── requirements.txt    # List of dependencies
 └── README.md           # Project Documentation
+
+
 
 ## 📊 Exploratory Data Analysis (EDA)
 During the analysis phase, I used a line plot to visualize how **Glucose Concentration** trends with **Age**, categorized by the **Outcome**. This helped in identifying the clear separation between the two classes.
