@@ -46,8 +46,7 @@ The application provides an interactive dashboard where users can input patient 
 
 ## 🏃 How to Run Locally
 
-### 1. Clone the repository
-```bash
+###  Clone the repository
 git clone [https://github.com/your-username/diabetes-prediction.git](https://github.com/your-username/diabetes-prediction.git)
 cd diabetes-prediction
 pip install -r requirements.txt
@@ -77,3 +76,5 @@ streamlit run app.py
 <p align="center">
   🚀 Building scalable web applications | 🤖 Exploring AI | ⚙️ Engineering systems
 </p>
+
+
