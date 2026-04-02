@@ -46,16 +46,19 @@ streamlit run app.py
 ## 📊 Exploratory Data Analysis (EDA)
 During the analysis phase, I used a line plot to visualize how **Glucose Concentration** trends with **Age**, categorized by the **Outcome**. This helped in identifying the clear separation between the two classes.
 
-![EDA Line Plot]
+![EDA Line Plot]<p align="center">
 <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775161020/Screenshot_2026-04-03_at_1.03.33_AM_fwnvj0.png">
 <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775161020/Screenshot_2026-04-03_at_1.03.54_AM_j6lepn.png">
 <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775161020/Screenshot_2026-04-03_at_1.04.06_AM_db2puv.png">
 <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775161019/Screenshot_2026-04-03_at_1.04.23_AM_vv1iiq.png">
+</p>
 
 ## 🖥️ Streamlit UI Analysis
 The application provides an interactive dashboard where users can input patient metrics. The model then processes these through a `StandardScaler` and a `Logistic Regression` classifier to provide a real-time diagnosis.
 
-![Streamlit UI Screenshot]
+![Streamlit UI Screenshot]<p align="center">
 <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775161074/Screenshot_2026-04-03_at_1.47.27_AM_dxycdx.png">
 <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775161074/Screenshot_2026-04-03_at_1.47.27_AM_dxycdx.png">
 https://res.cloudinary.com/ddgfjerss/image/upload/v1775161074/Screenshot_2026-04-03_at_1.47.42_AM_fr9uxw.png
+</p>
+
