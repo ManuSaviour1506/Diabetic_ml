@@ -29,13 +29,12 @@ Before building the model, an extensive EDA was performed to understand the rela
 
 ## 🏃 How to Run Locally
 
-### Clone the repository
+### 1. Clone the repository
 ```bash
 git clone [https://github.com/your-username/diabetes-prediction.git](https://github.com/your-username/diabetes-prediction.git)
 cd diabetes-prediction
 pip install -r requirements.txt
 streamlit run app.py
-
 
 ## 📁 Folder Structure
 ├── app.py              # Streamlit Web Application
@@ -44,18 +43,16 @@ streamlit run app.py
 ├── requirements.txt    # List of dependencies
 └── README.md           # Project Documentation
 
-
-
 ## 📊 Exploratory Data Analysis (EDA)
 During the analysis phase, I used a line plot to visualize how **Glucose Concentration** trends with **Age**, categorized by the **Outcome**. This helped in identifying the clear separation between the two classes.
 
-![EDA Line Plot](https://res.cloudinary.com/ddgfjerss/image/upload/v1775161020/Screenshot_2026-04-03_at_1.03.33_AM_fwnvj0.png)
-(https://res.cloudinary.com/ddgfjerss/image/upload/v1775161020/Screenshot_2026-04-03_at_1.03.54_AM_j6lepn.png)
-(https://res.cloudinary.com/ddgfjerss/image/upload/v1775161020/Screenshot_2026-04-03_at_1.04.06_AM_db2puv.png)
-(https://res.cloudinary.com/ddgfjerss/image/upload/v1775161019/Screenshot_2026-04-03_at_1.04.23_AM_vv1iiq.png)
+![EDA Line Plot]https://res.cloudinary.com/ddgfjerss/image/upload/v1775161020/Screenshot_2026-04-03_at_1.03.33_AM_fwnvj0.png
+https://res.cloudinary.com/ddgfjerss/image/upload/v1775161020/Screenshot_2026-04-03_at_1.03.54_AM_j6lepn.png
+https://res.cloudinary.com/ddgfjerss/image/upload/v1775161020/Screenshot_2026-04-03_at_1.04.06_AM_db2puv.png
+https://res.cloudinary.com/ddgfjerss/image/upload/v1775161019/Screenshot_2026-04-03_at_1.04.23_AM_vv1iiq.png
 
 ## 🖥️ Streamlit UI Analysis
 The application provides an interactive dashboard where users can input patient metrics. The model then processes these through a `StandardScaler` and a `Logistic Regression` classifier to provide a real-time diagnosis.
 
-![Streamlit UI Screenshot](https://res.cloudinary.com/ddgfjerss/image/upload/v1775161074/Screenshot_2026-04-03_at_1.47.27_AM_dxycdx.png)
-(https://res.cloudinary.com/ddgfjerss/image/upload/v1775161074/Screenshot_2026-04-03_at_1.47.42_AM_fr9uxw.png)
+![Streamlit UI Screenshot]https://res.cloudinary.com/ddgfjerss/image/upload/v1775161074/Screenshot_2026-04-03_at_1.47.27_AM_dxycdx.png
+https://res.cloudinary.com/ddgfjerss/image/upload/v1775161074/Screenshot_2026-04-03_at_1.47.42_AM_fr9uxw.png
