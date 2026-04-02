@@ -50,3 +50,30 @@ The application provides an interactive dashboard where users can input patient 
 ```bash
 git clone [https://github.com/your-username/diabetes-prediction.git](https://github.com/your-username/diabetes-prediction.git)
 cd diabetes-prediction
+pip install -r requirements.txt
+streamlit run app.py
+
+## 📁 Folder Structure
+├── app.py              # Streamlit Web Application
+├── diabetic_model.pkl  # Trained Logistic Regression Model
+├── scaler.pkl          # Fitted StandardScaler Object
+├── requirements.txt    # List of dependencies
+└── README.md           # Project Documentation
+
+
+<h2 align="center">👨‍💻 Manu Saviour</h2>
+
+<p align="center">
+  <b>Full Stack Developer • Machine Learning • DevOps • Data Science</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Full%20Stack-Developer-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-AI-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DevOps-Engineer-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Data%20Science-Analytics-purple?style=for-the-badge" />
+</p>
+
+<p align="center">
+  🚀 Building scalable web applications | 🤖 Exploring AI | ⚙️ Engineering systems
+</p>
