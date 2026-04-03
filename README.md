@@ -1,81 +1,123 @@
-## 💼 Salary Prediction System (ML + Streamlit)
-### <p align="center"> <b>🚀 AI-powered system to estimate developer salaries based on skills, experience, and location</b> </p>
-#### 🚀 Overview
+# 🩺 Diabetes Prediction System
 
-The Salary Prediction System is a Machine Learning web application that predicts a developer’s salary using key real-world factors:
+An end-to-end **Machine Learning web application** that predicts the likelihood of diabetes using patient medical data. Built with **Python, Scikit-Learn, and Streamlit**, this system delivers real-time predictions with an intuitive user interface.
 
-👨‍💻 Skills (Python, React, Java, etc.)
-🌍 Country (India, USA, Germany, etc.)
-📈 Experience
-🏢 Company Size
-🎓 Education Level
+---
 
-##### 👉 Built using Random Forest Regression and deployed with Streamlit for real-time predictions.
+## 🚀 Project Overview
 
-### 🖼️ EDA Preview
-<p align="center"> <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775204121/Screenshot_2026-04-03_at_1.36.55_PM_h4b5sf.png" width="45%" /> <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775204121/Screenshot_2026-04-03_at_1.36.43_PM_q0aauo.png" width="45%" /> </p> <p align="center"> <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775204120/Screenshot_2026-04-03_at_1.37.11_PM_g6f0t6.png" width="45%" /> <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775204120/Screenshot_2026-04-03_at_1.37.23_PM_o7hs77.png" width="45%" /> </p>
+This project utilizes the **Pima Indians Diabetes Dataset** to train a **Logistic Regression model** for binary classification.
 
-### 🧠 Machine Learning Details
-###### Algorithm: Random Forest Regressor 🌲
-###### Problem Type: Regression
-Libraries Used:
-pandas
-scikit-learn
-joblib
+Users can input health parameters such as glucose level, BMI, age, and more to receive:
 
-### ⚙️ Workflow
-Data Collection → Data Cleaning → Feature Engineering → Model Training → Evaluation → Deployment
+* ✅ Instant prediction (Diabetic / Non-Diabetic)
+* 📊 Confidence-based output
+* ⚡ Real-time inference
 
-### 📊 Features
-✅ Real-time salary prediction
-✅ One-hot encoding for categorical features
-✅ Multi-skill selection support
-✅ Optimized Random Forest model
-✅ Model persistence using joblib
+The system is designed to support **early detection and healthcare decision-making**.
 
-### 🛠️ Tech Stack
-Layer	Technology
-Frontend	Streamlit
-Backend	Python
-ML Model	Random Forest Regression
-Serialization	Joblib
+---
 
-### 📁 Project Structure
-salary-predictor/
-│
-├── app.py                # Streamlit app
-├── salary_model.pkl      # Trained ML model
-├── columns.pkl           # Feature columns
-├── requirements.txt      # Dependencies
-└── README.md             # Documentation
+## 🛠️ Tech Stack
 
-### 🖥️ Streamlit UI
-<p align="center"> <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775204120/Screenshot_2026-04-03_at_1.35.26_PM_eefsby.png" width="80%"> </p> <p align="center"> <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775204119/Screenshot_2026-04-03_at_1.34.52_PM_mcm8gv.png" width="80%"> </p>
+* **Language:** Python 3.11+
+* **Machine Learning:** Scikit-learn
+* **Frontend / Deployment:** Streamlit
+* **Data Processing:** Pandas, NumPy
+* **Model Persistence:** Joblib
 
-### ⚡ Installation & Setup
-1️⃣ Clone Repository
-git clone https://github.com/ManuSaviour1506/salary_prediction.git
-cd salary-predictor
-2️⃣ Install Dependencies
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+Comprehensive analysis was conducted to understand feature relationships:
+
+* **Glucose & BMI** → Strongest indicators of diabetes
+* **Age Trends** → Risk increases with age
+* **Data Cleaning** → Replaced biologically invalid zero values
+
+### 📈 EDA Visualizations
+
+<p align="center">
+  <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775161020/Screenshot_2026-04-03_at_1.03.33_AM_fwnvj0.png" width="45%"/>
+  <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775161020/Screenshot_2026-04-03_at_1.03.54_AM_j6lepn.png" width="45%"/>
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775161020/Screenshot_2026-04-03_at_1.04.06_AM_db2puv.png" width="45%"/>
+  <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775161019/Screenshot_2026-04-03_at_1.04.23_AM_vv1iiq.png" width="45%"/>
+</p>
+
+---
+
+## 🤖 Model Details
+
+* **Algorithm:** Logistic Regression
+* **Preprocessing:** StandardScaler
+* **Problem Type:** Binary Classification
+* **Focus Metric:** High recall (minimizing false negatives)
+
+---
+
+## 🖥️ Application Interface
+
+The application provides a **Streamlit-based dashboard** where users can:
+
+* Enter patient medical details
+* Get real-time predictions
+* View model-driven insights
+
+### 💻 UI Preview
+
+<p align="center">
+  <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775161074/Screenshot_2026-04-03_at_1.47.27_AM_dxycdx.png" width="45%"/>
+  <img src="https://res.cloudinary.com/ddgfjerss/image/upload/v1775161074/Screenshot_2026-04-03_at_1.47.42_AM_fr9uxw.png" width="45%"/>
+</p>
+
+---
+
+## 📁 Project Structure
+
+```
+├── app.py              # Streamlit Web Application
+├── diabatic_model.pkl  # Trained ML Model
+├── scaler.pkl          # StandardScaler
+├── requirements.txt    # Dependencies
+└── README.md           # Documentation
+```
+
+---
+
+## 🏃 How to Run Locally
+
+```bash
+git clone https://github.com/your-username/diabetes-prediction.git
+cd diabetes-prediction
 pip install -r requirements.txt
-3️⃣ Run Application
 streamlit run app.py
-💡 Example
+```
 
-Input:
+---
 
-Experience: 3 years
-Country: India
-Skills: Python, Django
+## 🎯 Key Highlights
 
-Output:
+* End-to-end ML pipeline (EDA → Model → Deployment)
+* Real-time prediction system
+* Clean and interactive UI
+* Healthcare-focused use case
+* Optimized for usability and performance
 
-Predicted Salary: ₹27,000+
+---
 
-### 🔥 Key Highlights
-📈 Predicts salary using real-world features
-🧠 Uses ensemble learning (Random Forest)
-⚡ Lightweight and fast deployment
+## 👨‍💻 Author
 
-👨‍💻 Author
-<h2 align="center">Manu Saviour</h2> <p align="center"> <b>Full Stack Developer • Machine Learning • DevOps • Data Science</b> </p> <p align="center"> <img src="https://img.shields.io/badge/Full%20Stack-Developer-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Machine%20Learning-AI-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/DevOps-Engineer-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Data%20Science-Analytics-purple?style=for-the-badge" /> </p> <p align="center"> 🚀 Building scalable web apps | 🤖 Exploring AI | ⚙️ Engineering systems </p>
+**Manu Saviour**
+Full Stack Developer • Machine Learning • Data Science
+
+---
+
+## ⭐ Final Note
+
+This project demonstrates the ability to **design, train, and deploy machine learning models into production-ready applications**, with a focus on real-world impact.
+
+> “Turning healthcare data into actionable intelligence.”
