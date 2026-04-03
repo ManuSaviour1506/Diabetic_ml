@@ -91,8 +91,8 @@ The application provides a **Streamlit-based dashboard** where users can:
 ## 🏃 How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/diabetes-prediction.git
-cd diabetes-prediction
+git clone https://github.com/ManuSaviour1506/Diabetic_ml.git
+cd Diabetic_ml
 pip install -r requirements.txt
 streamlit run app.py
 ```
