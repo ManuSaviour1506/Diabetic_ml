@@ -113,11 +113,3 @@ streamlit run app.py
 
 **Manu Saviour**
 Full Stack Developer • Machine Learning • Data Science
-
----
-
-## ⭐ Final Note
-
-This project demonstrates the ability to **design, train, and deploy machine learning models into production-ready applications**, with a focus on real-world impact.
-
-> “Turning healthcare data into actionable intelligence.”
